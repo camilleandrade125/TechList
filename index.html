@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechList</title>
+    <link rel="shortcut icon" type="imagex/png" href="./src/icone.icon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Lista de Tarefas</h1>
+        <label for="nameInput"><strong>Nome:</strong></label>
+        <input type="text" id="nameInput" placeholder="Digite seu nome">
+        <label for="taskInput"><strong>Tarefa:</strong></label>
+        <input type="text" id="taskInput" placeholder="Adicionar nova tarefa">
+        <button onclick="addTask()">Adicionar</button>
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
