@@ -1,21 +1,26 @@
+
 {
     "name": "Techlist",
-    "short_name": "Tarefas",
-    "description": " PWA - ATIVIDADE AVALIATIVA / UMA SIMPLES LISTA DE TAREFAS",
+    "short_name": "Techlist",
+    "description": "Uma lista virtual capaz de salvar o nome de usuário, adicionar tarefas e riscar quando as mesma forem finalizadas.",
     "start_url": "./index.html",
     "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#007bff",
+    "background_color": "#90f196",
+    "theme_color": "#3cff00",
     "icons": [
-        {
-            "src": "icon.png",
-            "sizes": "192x192",
-            "type": "image/icon"
-        },
-        {
-            "src": "icon.png",
-            "sizes": "512x512",
-            "type": "image/icon"
-        }
+      {
+        "src": "icon.png",
+        "sizes": "192x192",
+        "type": "image/icon"
+      },
+      {
+        "src": "icon.png",
+        "sizes": "512x512",
+        "type": "image/icon"
+      }
+    ],
+    "lang": "pt",
+    "categories": [
+      "lifestyle"
     ]
-}
+  }
