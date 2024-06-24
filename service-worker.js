@@ -1,10 +1,8 @@
-// This is the "Offline page" service worker
 
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 
 const CACHE = "pwabuilder-page";
 
-// TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = "pageoff.html";
 const offlineFallbackPage = "pageoff.html";
 
 self.addEventListener("message", (event) => {
